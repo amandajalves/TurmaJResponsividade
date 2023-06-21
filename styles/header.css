@@ -20,3 +20,6 @@
 .lista-menu{
     display: none;
 }
+.conteiner-botao:checked~.lista-menu{
+    display: block;
+}
