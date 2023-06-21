@@ -1,10 +1,9 @@
 .cabecalho{
     display: flex;
     justify-content: space-between;
-}
-.conteiner{
-    display: flex;
-    justify-content: space-between;
+    background-color: var(--branco);
+    align-items: center;
+    position: relative;
 }
 .cabecalho-menu{
     display: inline-block;
@@ -14,11 +13,17 @@
     width: 24px;
     height: 24px;
 }
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+}
 .conteiner-imagem{
     padding: 1em;
 }
 .lista-menu{
     display: none;
+    position: absolute;
+    top: 100%;
 }
 .conteiner-botao:checked~.lista-menu{
     display: block;
