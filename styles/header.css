@@ -33,4 +33,5 @@
 }
 .lista-menu-titulo{
     font-weight: 700;
+    color: var(--amarelo);
 }
