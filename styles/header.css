@@ -25,12 +25,12 @@
     position: absolute;
     top: 100%;
 }
+.conteiner-botao{
+    display: none;
+}
 .conteiner-botao:checked~.lista-menu{
     display: block;
 }
 .lista-menu-titulo{
     font-weight: 700;
-}
-.conteiner-botao{
-    display: none;
 }
