@@ -24,6 +24,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
 }
 .conteiner-botao{
     display: none;
