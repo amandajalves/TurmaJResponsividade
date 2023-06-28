@@ -35,3 +35,6 @@
     font-weight: 700;
     color: var(--amarelo);
 }
+.lista-menu-link{
+    color: var(--roxo);
+}
