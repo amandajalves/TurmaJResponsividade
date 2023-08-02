@@ -48,11 +48,11 @@
 
 @media screen and (min-width:1024px){
     .lista-menu-link{
-        display: flex;
+        display: block;
         font-family: var(--fonte-secundaria);
         font-size: 30px;
         font-weight: 300;
-        
+
     }
 
 }
