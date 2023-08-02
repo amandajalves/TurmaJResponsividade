@@ -47,7 +47,7 @@
 }
 
 @media screen and (min-width:1024px){
-    .lista-menu-link{
+    .container__titulo{
         display: block;
         font-family: var(--fonte-secundaria);
         font-size: 30px;
