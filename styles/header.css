@@ -13,11 +13,11 @@
     width: 24px;
     height: 24px;
 }
-.conteiner{
+.container{
     display: flex;
     justify-content: space-between;
 }
-.conteiner-imagem{
+.container-imagem{
     padding: 1em;
 }
 .lista-menu{
@@ -27,10 +27,10 @@
     top: 100%;
     width: 60vw;
 }
-.conteiner-botao{
+.container-botao{
     display: none;
 }
-.conteiner-botao:checked~.lista-menu{
+.container-botao:checked~.lista-menu{
     display: block;
 }
 .lista-menu-titulo,.lista-menu-item{
