@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
-    align-items: center;
+    align-items: baseline;
     position: relative;
 }
 .cabecalho-menu{
