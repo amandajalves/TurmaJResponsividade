@@ -42,6 +42,13 @@
     color: var(--roxo);
 }
 
+.container__titulo{
+    display: none;
+}
+
 @media screen and (min-width:1024px){
-    
+    .lista-menu-link{
+        display: flex;
+    }
+
 }
