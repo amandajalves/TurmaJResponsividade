@@ -41,6 +41,8 @@
 }
 .lista-menu-link{
     color: var(--roxo);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .container__titulo{
