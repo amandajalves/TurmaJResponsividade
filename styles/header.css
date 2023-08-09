@@ -75,5 +75,11 @@
         color: var(--preto);
         text-decoration: none;
     }
+    .container__imagem-transparente{
+        display: none;
+    }
+    .cabecalho-menu{
+        display: none;
+    }
 
 }
