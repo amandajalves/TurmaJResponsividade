@@ -49,6 +49,10 @@
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
+
 @media screen and (min-width:1024px){
     .container__titulo{
         display: block;
@@ -58,6 +62,18 @@
     }
     .container__titulo--negrito{
         font-weight: 400;
+    }
+    .opcoes{
+        display: flex;
+    }
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+        color: var(--preto);
+    }
+    .opcoes__link{
+        color: var(--preto);
+        text-decoration: none;
     }
 
 }
