@@ -34,12 +34,16 @@
 .container-botao:checked~.lista-menu{
     display: block;
 }
-.lista-menu-titulo,.lista-menu-item{
-    font-weight: 700;
+
+.lista__menu-titulo,
+.lista__menu-item {
+
     color: var(--amarelo);
+    font-weight: 700;
     padding: 1em;
 }
-.lista-menu-link{
+
+.lista__menu-link {
     color: var(--roxo);
     text-decoration: none;
     text-transform: uppercase;
@@ -50,6 +54,10 @@
 }
 
 .opcoes{
+    display: none;
+}
+
+.container__texto{
     display: none;
 }
 
@@ -102,5 +110,8 @@
     }
     .opções{
         margin-right: auto;
+    }
+    .container__texto{
+        display: block;
     }
 }
