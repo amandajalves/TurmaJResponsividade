@@ -86,29 +86,29 @@
     .container__imagem-transparente{
         display: none;
     }
-    .cabecalho-menu{
+    .cabecalho__menu{
         display: none;
     }
-    .opções__botão:checked~.lista-menu{
+    .opcoes__botao:checked~.lista__menu{
         display: block;
         width: auto;
     }
-    .opções__botão{
+    .opcoes__botao{
         display: none;
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width:1728px) {
     .container__link{
         display: flex;
         align-items: center;
         text-decoration: none;
         color: var(--preto);
     }    
-    .cabeçalho{
+    .cabecalho{
         padding: 0 2em;
     }
-    .opções{
+    .opcoes{
         margin-right: auto;
     }
     .container__texto{
