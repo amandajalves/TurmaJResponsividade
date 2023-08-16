@@ -5,7 +5,7 @@
     align-items: center;
     position: relative;
 }
-.cabecalho-menu{
+.cabecalho__menu{
     display: inline-block;
     background-image: url(../img/Menu.svg);
     background-repeat: no-repeat;
@@ -18,20 +18,20 @@
     justify-content: space-between;
     align-items: center;
 }
-.container-imagem{
+.container__imagem{
     padding: 1em;
 }
-.lista-menu{
+.lista__menu{
     background-color: var(--branco);
     display: none;
     position: absolute;
     top: 100%;
     width: 60vw;
 }
-.container-botao{
+.container__botao{
     display: none;
 }
-.container-botao:checked~.lista-menu{
+.container__botao:checked~.lista-menu{
     display: block;
 }
 
